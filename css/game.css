@@ -1,0 +1,27 @@
+.background    { background: rgb(181, 217, 245);
+                background-image: url(Pared\ Piramide.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;   }
+.lava          { background: rgb(253, 0, 0); 
+                background-image: url(Lava.jpg); }                            
+.wall          { background: rgb(233, 134, 5);  /* Color MORADO para ciudad rgb(138, 20, 235);*/
+                background-image: url(Piedra.jpg);   } 
+ 
+.actor  { position: absolute;  }
+.coin   { background: rgb(250, 246, 0); }
+.player { background: rgb(90, 80, 231); }
+
+.game {
+  overflow: hidden;
+  max-width: 1080px;
+  max-height: 680px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
